@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="assets/css/chatbot.css">
+    <link rel="shortcut icon" href="assets/images/chatbot.png" type="image/x-icon">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <img class="image-container" src="assets/images/chatbot.png" alt="ChatBot Image">
+            <h2 class="chatbot-name">Chatbot</h2>
+        </div>
+        <div class="chatlog" id="chat-log">
+            <div class="message received">
+                <p id="welcome-message">Welcome to Curious Advisor! How can I assist you today?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" class="user-input" placeholder="Type a Message">
+            <button id="send-btn">Send</button>
+            <button id="clear-btn">Clear</button>
+            <button id="voice-btn">VoiceDetector</button>
+            <button id="message-reader-btn">MessageReader</button>
+            <button id="conversation-reader-btn">ConversationReader</button>
+        </div>
+    </div>
+    <div id="loading-indicator">
+        <div class="loading-spinner"></div>
+    </div>
+</body>
+</html>
